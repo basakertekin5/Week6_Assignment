@@ -1,0 +1,25 @@
+size(560, 560);
+background(#FA58AC);
+smooth();
+strokeWeight(4);
+stroke(255, 150, 200);
+for (int y = 0; y <= height; y += 60) {
+for (int x = 0; x <= width; x += 60) {
+fill(255, 255);
+ellipse(x,y, 60, 60);
+} 
+}  
+ 
+ smooth();
+ strokeWeight(4);
+for (int y=0; y <= height; y+=120) {
+      for(int x = 0; x <= width; x+= 120) {
+           fill(#FE2E64,55);
+           rect(x, y, 60, 60);
+    
+    
+  }
+      
+      
+  }
+ 
